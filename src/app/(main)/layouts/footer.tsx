@@ -15,7 +15,7 @@ import { FooterMenu } from "./footer_menu";
 
 export const Footer: React.FC = () => {
   return (
-    <div className="flex w-full flex-col bg-[#fff5ec] p-5 gap-y-2 text-black">
+    <div className="flex w-full flex-col p-5 gap-y-2 text-black border-t">
       <div className={classNames("flex justify-between", "flex-row")}>
         <div className="flex flex-col md:flex-row gap-x-5">
           <Link href={"/"} className="flex items-center">
@@ -33,11 +33,11 @@ export const Footer: React.FC = () => {
                 height={18}
                 className="animate-bounce text-green-500"
               />
-              <a href="tel:89981520" className="">
-                89981520
+              <a href="tel:011-311-3848" className="">
+                011-311-3848
               </a>
             </div>
-            <p className="flex gap-x-2 items-center">info@ahcc.mn</p>
+            <p className="flex gap-x-2 items-center">info@unilead.co.jp</p>
           </div>
         </div>
 
@@ -46,13 +46,11 @@ export const Footer: React.FC = () => {
       <div className="border border-t-0 border-gray-200"></div>
       <div className="grid md:grid-cols-3 gap-y-4 text-xs">
         <p className="whitespace-pre-wrap">
-          {`Албан ёсны борлуулагч: АМУМЕД ХХК\nСБД 1-р хороо, Энхтайваны өргөн чөлөө, TG төв 603, 606 тоот \nУтас 70138699`}
+          {`株式会社UNILEAD\n〒004ｰ0841 北海道札幌市清田区清田1条4丁目1番45号　R4TMビル　2003号室`}
         </p>
-        <p className="whitespace-pre-wrap">{`Үйлдвэрлэгч: Amino Up Co., Ltd. \n363-32 Shin-ei, Kiyota ward, Sapporo 004-0839, Japan.\nTEL: +81(0)11-889-2277`}</p>
-        <p className="whitespace-pre-wrap">{`Экспортлогч: UniLead Co., Ltd.\nR4TM bldg. 2003, 1-45 Kiyota 1 jo 4 chome, Kiyota ward, Sapporo 004-0841, Japan.\nTEL: +81(0)11-311-3848`}</p>
       </div>
       <span className="pt-10 text-center text-sm text-black">
-        {`© 2023 AHCC. All Rights Reserved.`}
+        {`© 2023 Unilead. All Rights Reserved.`}
       </span>
     </div>
   );

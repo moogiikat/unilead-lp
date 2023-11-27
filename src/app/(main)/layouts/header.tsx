@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
     <header>
       <div
         className={classNames(
-          "flex h-14 w-full items-center justify-between px-4 py-5 text-black bg-[#fff5ec]",
+          "flex h-14 w-full items-center justify-between px-4 py-5 text-black border-b",
           "lg:py-10"
         )}
       >
