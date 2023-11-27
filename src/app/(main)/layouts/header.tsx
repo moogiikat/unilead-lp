@@ -36,30 +36,14 @@ export const Header: React.FC = () => {
         >
           <Bars3Icon width={40} />
         </button>
-        <div className="flex gap-x-5">
-          <Link href={"/"}>
-            <Image
-              src={"/assets/logo.png"}
-              width={100}
-              alt={"logo"}
-              height={100}
-            />
-          </Link>
-          <div className="md:text-2xl font-bold text-xl md:flex hidden flex-col md:flex-row gap-x-2">
-            <div className="flex gap-x-2 items-center">
-              <PhoneIcon
-                width={18}
-                height={18}
-                className="animate-bounce text-green-500"
-              />
-              <a href="tel:89981520" className="">
-                89981520
-              </a>
-            </div>
-            <p className="flex gap-x-2 items-center">info@ahcc.mn</p>
-          </div>
-        </div>
-
+        <Link href={"/"}>
+          <Image
+            src={"/assets/logo.png"}
+            width={100}
+            alt={"logo"}
+            height={100}
+          />
+        </Link>
         {/* SP */}
         <Drawer
           className="lg:hidden"

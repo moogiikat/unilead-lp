@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AHCC",
-  description: "AHCC app",
+  title: "Unilead",
+  description: "Unilead app",
 };
 
 const RootLayout: React.FCC = ({ children }) => {
@@ -20,7 +20,7 @@ const RootLayout: React.FCC = ({ children }) => {
     <html className={inter.className} lang="ja">
       <Ga />
       <head>
-        <title>AHCC</title>
+        <title>Unilead</title>
       </head>
       <body className="bg-white">
         <RootStyleRegistry>{children}</RootStyleRegistry>
