@@ -11,7 +11,7 @@ const MainLayout: React.FCC = ({ children }) => {
         <div className="sticky top-0 z-50">
           <Header />
         </div>
-        <div className="min-h-screen mx-auto flex max-w-[1000px] items-start py-10 px-2">
+        <div className="min-h-screen mx-auto flex max-w-[1200px] items-start py-10 px-2">
           {children}
         </div>
         <div>
