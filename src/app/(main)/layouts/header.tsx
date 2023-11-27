@@ -37,12 +37,7 @@ export const Header: React.FC = () => {
           <Bars3Icon width={40} />
         </button>
         <Link href={"/"}>
-          <Image
-            src={"/assets/logo.png"}
-            width={100}
-            alt={"logo"}
-            height={100}
-          />
+          <Image src={"/assets/logo.png"} width={40} alt={"logo"} height={40} />
         </Link>
         {/* SP */}
         <Drawer
