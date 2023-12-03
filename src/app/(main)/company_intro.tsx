@@ -5,7 +5,7 @@ const CompanyIntro: React.FC = () => {
     <div className="w-full bg-[#3b4a94] text-white rounded-2xl">
       <div
         className={classNames(
-          "container mx-auto my-5 px-4 py-12 md:px-16 md:py-24 md:max-w-[1200px]",
+          "container mx-auto my-5 px-4 py-5 md:px-16 md:py-12 md:max-w-[1200px]",
           "grid grid-cols-1 gap-10 md:gap-20",
           "md:grid-cols-2 md:gap-36"
         )}
