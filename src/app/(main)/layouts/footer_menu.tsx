@@ -15,7 +15,7 @@ export const FooterMenu: React.FC = () => {
         <Link
           key={idx}
           href={href}
-          className="flex items-center font-normal text-black no-underline transition duration-200 p-0 m-0"
+          className="flex items-center font-bold text-white no-underline transition duration-200 p-0 m-0"
         >
           {label}
         </Link>

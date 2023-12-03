@@ -15,8 +15,13 @@ import { FooterMenu } from "./footer_menu";
 
 export const Footer: React.FC = () => {
   return (
-    <div className="flex w-full flex-col p-5 gap-y-2 text-black border-t border-[#3b4a94]">
-      <div className={classNames("flex justify-between", "flex-row")}>
+    <div className="flex w-full flex-col gap-y-2 text-white">
+      <div
+        className={classNames(
+          "flex justify-between p-5",
+          "flex-row bg-gradient-to-r from-blue-400 to-violet-700"
+        )}
+      >
         <div className="flex flex-col md:flex-row gap-x-5">
           <Link href={"/"} className="flex items-center">
             <Image
@@ -43,13 +48,12 @@ export const Footer: React.FC = () => {
 
         <FooterMenu />
       </div>
-      <div className="border border-t-0 border-gray-200 border-[#3b4a94]"></div>
-      <div className="grid md:grid-cols-3 gap-y-4 text-xs">
+      <div className="grid md:grid-cols-3 gap-y-4 text-xs p-5 text-black">
         <p className="whitespace-pre-wrap">
           {`株式会社UNILEAD\n〒004ｰ0841 北海道札幌市清田区清田1条4丁目1番45号　R4TMビル　2003号室`}
         </p>
       </div>
-      <span className="pt-10 text-center text-sm text-black">
+      <span className="text-center text-sm text-black">
         {`© 2023 Unilead. All Rights Reserved.`}
       </span>
     </div>
