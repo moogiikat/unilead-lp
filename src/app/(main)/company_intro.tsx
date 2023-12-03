@@ -2,7 +2,7 @@ import { classNames } from "lib/utils";
 
 const CompanyIntro: React.FC = () => {
   return (
-    <div className="w-full bg-[#3b4a94] text-white">
+    <div className="w-full bg-[#3b4a94] text-white rounded-2xl">
       <div
         className={classNames(
           "container mx-auto my-5 px-4 py-12 md:px-16 md:py-24 md:max-w-[1200px]",
