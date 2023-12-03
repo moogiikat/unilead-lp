@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import { TeamsComponent } from "./teams/teams";
+import CompanyIntro from "./company_intro";
 
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <CompanyIntro />
       <div>
         <div className="flex flex-col gap-y-5">
           <h1 className="font-bold text-xl">チーム紹介</h1>
