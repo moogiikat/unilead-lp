@@ -15,7 +15,7 @@ import { FooterMenu } from "./footer_menu";
 
 export const Footer: React.FC = () => {
   return (
-    <div className="flex w-full flex-col p-5 gap-y-2 text-black border-t">
+    <div className="flex w-full flex-col p-5 gap-y-2 text-black border-t border-[#3b4a94]">
       <div className={classNames("flex justify-between", "flex-row")}>
         <div className="flex flex-col md:flex-row gap-x-5">
           <Link href={"/"} className="flex items-center">
@@ -43,7 +43,7 @@ export const Footer: React.FC = () => {
 
         <FooterMenu />
       </div>
-      <div className="border border-t-0 border-gray-200"></div>
+      <div className="border border-t-0 border-gray-200 border-[#3b4a94]"></div>
       <div className="grid md:grid-cols-3 gap-y-4 text-xs">
         <p className="whitespace-pre-wrap">
           {`株式会社UNILEAD\n〒004ｰ0841 北海道札幌市清田区清田1条4丁目1番45号　R4TMビル　2003号室`}
