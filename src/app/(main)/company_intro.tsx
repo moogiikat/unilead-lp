@@ -10,16 +10,15 @@ const CompanyIntro: React.FC = () => {
           "md:grid-cols-2 md:gap-36"
         )}
       >
-        <div>
-          <p className="mb-7 flex items-center text-xl font-medium md:font-extrabold">
+        <div className="flex flex-col gap-y-5">
+          <p className="flex items-center text-xl font-medium md:font-extrabold text-[#fc8736]">
             会社紹介
           </p>
-          <p className="mb-8 text-2xl md:text-4xl font-medium md:font-extrabold">
+          <p className="md:text-4xl font-medium md:font-extrabold">
             会社の紹介ビデオが出来上がりました。
           </p>
-          <p className="text-white text-sm md:text-md">
+          <p className="text-white text-xs md:text-md">
             モンゴルパワーを⽇本へ ⽇本の先端技術をモンゴルへ LEADする
-            <br />
             モンゴルパワーを⽇本へ ⽇本の先端技術をモンゴルへ LEADする
           </p>
         </div>
