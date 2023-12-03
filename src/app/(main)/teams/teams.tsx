@@ -57,6 +57,7 @@ export const TeamsComponent: React.FC = () => {
           </div>
         </div>
       </div>
+      <div className="border border-b-0"></div>
       <div className="grid lg:grid-cols-5 grid-cols-2 gap-2">
         <div className="flex flex-col gap-y-2">
           <Image
