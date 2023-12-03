@@ -7,13 +7,48 @@ import { TeamsComponent } from "./teams/teams";
 export default function Home() {
   return (
     <div className="flex flex-col gap-y-5">
-      <Image
-        alt="image"
-        src={"/assets/home/1.jpg"}
-        className="rounded-2xl"
-        width={2000}
-        height={2000}
-      />
+      <div className="relative">
+        <Image
+          alt="image"
+          src={"/assets/home/1.jpg"}
+          className="rounded-2xl"
+          width={2000}
+          height={2000}
+        />
+        <div className="absolute -right-8 top-1/3 border-none text-white">
+          <div className="gap-y-5 lg:flex flex-col hidden">
+            <Image
+              alt="image"
+              src={"/assets/social/facebook.png"}
+              className="animate-bounce"
+              width={60}
+              height={60}
+            />
+            <Image
+              alt="image"
+              src={"/assets/social/instagram.png"}
+              className="animate-bounce"
+              width={60}
+              height={60}
+            />
+            <Image
+              alt="image"
+              src={"/assets/social/twitter.png"}
+              className="animate-bounce"
+              width={60}
+              height={60}
+            />
+            <Image
+              alt="image"
+              src={"/assets/social/youtube.png"}
+              className="animate-bounce"
+              width={60}
+              height={60}
+            />
+          </div>
+        </div>
+      </div>
+
       <div>
         <div className="flex flex-col gap-y-5">
           <h1 className="font-bold text-xl">チーム紹介</h1>
