@@ -82,7 +82,7 @@ export default function Home() {
               />
               <div className="text-sm">
                 <p className="font-bold">
-                  工事部 係長 C onstruction department – Senior engineer
+                  工事部 係長 Construction department – Senior engineer
                 </p>
                 <p>ビルグーテイ ナサンブヤン</p>
               </div>
