@@ -16,6 +16,11 @@ export default function Home() {
           width={2000}
           height={2000}
         />
+        <div className="md:block absolute top-0 right-0 border-none text-black bg-white rounded-r-none rounded-b-2xl p-5 hidden">
+          <h1 className="font-bold">
+            [営業時間] 10:00 - 18:00[定休日] 毎週水曜 / 第1・3火曜 / 年末年始
+          </h1>
+        </div>
         <div className="absolute -right-8 top-1/3 border-none text-white">
           <div className="gap-y-5 lg:flex flex-col hidden">
             <Image
@@ -48,8 +53,18 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="md:block absolute left-0 -bottom-14 border-none text-black bg-white shadow-md rounded-r-2xl rounded-b-2xl w-[500px] h-[240px] p-5 hidden">
+          <h1 className="font-bold">今月のトピック</h1>
+          <p>
+            宮城県涌谷町にて新築された工場の屋根上に1.2MW
+            のメガ太陽光発電所の工事が開始しました。✅
+            様々な建築業者と協力しながら順調に進行しております。🤝
+          </p>
+        </div>
       </div>
-      <CompanyIntro />
+      <div className="pt-10">
+        <CompanyIntro />
+      </div>
       <div>
         <div className="flex flex-col gap-y-5">
           <h1 className="font-bold text-xl">チーム紹介</h1>
